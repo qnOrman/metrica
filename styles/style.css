@@ -21,6 +21,7 @@ h1{
 h2{
     font-weight: 400;
     font-size: 45px;
+    text-transform: uppercase;
 }
 
 p{
@@ -35,7 +36,7 @@ p{
 .about{
     width: 1150px;
     height: 500px;
-    background-image: url(../resources/about.png); 
+    background-image: url(/module-1/resources/about.png);
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
@@ -69,4 +70,42 @@ h2{
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    margin-bottom: 150px;
+}
+
+.projects{
+    margin-bottom: 150px;
+}
+
+.items{
+    margin-bottom: 90px;
+}
+
+.items__img{
+    width: 1150px;
+    margin-bottom: 15px;
+}
+
+.items__text{
+    margin: 15px 0 15px;
+}
+
+.items__link{
+    color: #AD1818;
+}
+
+.projects__button{
+    width: 1150px;
+    text-align: center;
+    padding: 56px 0 56px;
+    color: #AD1818;
+    font-size: 30px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+}
+
+.projects__button:hover{
+    color: #F5F5F5;
+    background-color: #AD1818;
+    transition: all ease-in 0.5s;
 }
