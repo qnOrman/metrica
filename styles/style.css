@@ -35,15 +35,18 @@ p{
 .about{
     width: 1150px;
     height: 500px;
-    background-image: url(../resources/about.png);
+    background-image: url(../resources/about.png); 
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 150px;
+    padding: 379px 680px 40px 40px;
 }
 
 .about__text{
-    padding: 379px 680px 40px 40px;
+    width: 430px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
 }
 
 
@@ -53,7 +56,7 @@ h2{
     padding-bottom: 30px;
 }
 
-.about-us__text p{
+.about-us__text{
     font-size: 45px;
     padding-bottom: 30px;
 }
