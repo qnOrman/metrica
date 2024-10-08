@@ -38,7 +38,7 @@ p{
     position: relative;
     width: 1150px;
     height: 500px;
-    background-image: url(/module-1/resources/about.png);
+    background-image: url(../resources/about.png);
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
