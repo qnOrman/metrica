@@ -27,6 +27,7 @@ h2{
 p{
     font-size: 20px;
     font-weight: 400;
+    letter-spacing: -0.03em;
 }
 
 .title{
@@ -34,30 +35,34 @@ p{
 }
 
 .about{
+    position: relative;
     width: 1150px;
     height: 500px;
-    background-image: url(../resources/about.png);
+    background-image: url(/module-1/resources/about.png);
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 150px;
-    padding: 379px 680px 40px 40px;
+    /* padding: 379px 680px 40px 40px; */
 }
 
 .about__text{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
     width: 430px;
     line-height: 27px;
-    letter-spacing: -0.03em;
 }
 
 
-h2{
+.title__h2{
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 30px;
 }
 
 .about-us__text{
+    width: 1048px;
     font-size: 45px;
     padding-bottom: 30px;
 }
@@ -77,7 +82,7 @@ h2{
     margin-bottom: 150px;
 }
 
-.items{
+.projects__items{
     margin-bottom: 90px;
 }
 
@@ -95,8 +100,7 @@ h2{
 }
 
 .projects__button{
-    width: 1150px;
-    text-align: center;
+    width: 100%;
     padding: 56px 0 56px;
     color: #AD1818;
     font-size: 30px;
@@ -108,4 +112,55 @@ h2{
     color: #F5F5F5;
     background-color: #AD1818;
     transition: all ease-in 0.5s;
+}
+
+.offers{
+    background-color: #121212;
+}
+
+.title__offers{
+    color: white;
+    padding: 151px 0 34px 127px;
+}
+
+.offers{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.offers__item{
+    width: 1150px;
+    margin-bottom: 60px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.offers__item:last-child{
+    padding-bottom: 150px;
+    margin-bottom: 0;
+}
+
+.offers__item img{
+    margin-bottom: 15px;
+}
+
+.offers__item p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.bed{
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.bed__text{
+    width: 443px;
+    position: absolute;
+    bottom: 60px;
+    left: 125px;
+    color: #fff;
+    font-size: 30px;
 }
