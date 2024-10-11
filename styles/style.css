@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Manrope', sans-serif;
     
 }
 
 .container{
-    width: 1400px;
+    max-width: 1180px;
     margin: 0 auto;
-    background-color: #F5F5F5;
-    padding: 125px;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 h1{
@@ -30,11 +39,39 @@ p{
     letter-spacing: -0.03em;
 }
 
-.title{
+
+.nav-section{
+    margin-bottom: 70px;
+    padding-top: 33px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+}
+
+.nav-link{
+    color: #121212;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.link-is-current:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    transition: ease-in 0.2s all;
+}
+
+.hero__title{
     margin-bottom: 30px;
 }
 
-.about{
+.hero__box{
     position: relative;
     width: 1150px;
     height: 500px;
@@ -46,7 +83,7 @@ p{
     /* padding: 379px 680px 40px 40px; */
 }
 
-.about__text{
+.hero__text{
     position: absolute;
     bottom: 40px;
     left: 40px;
@@ -61,7 +98,7 @@ p{
     padding-bottom: 30px;
 }
 
-.about-us__text{
+.history__text{
     width: 1048px;
     font-size: 45px;
     padding-bottom: 30px;
@@ -76,6 +113,11 @@ p{
     text-decoration: none;
     color: white;
     margin-bottom: 150px;
+}
+
+.check-our-services:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
 }
 
 .projects{
@@ -112,10 +154,7 @@ p{
     color: #F5F5F5;
     background-color: #AD1818;
     transition: all ease-in 0.5s;
-}
-
-.offers{
-    background-color: #121212;
+    cursor: pointer;
 }
 
 .title__offers{
@@ -126,11 +165,11 @@ p{
 .offers{
     width: 1400px;
     margin: 0 auto;
+    background-color: #121212;
 }
 
 .offers__item{
     width: 1150px;
-    margin-bottom: 60px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
@@ -151,9 +190,9 @@ p{
 
 .bed{
     position: relative;
-    width: 1400px;
+    width: 1400px; 
     margin: 0 auto;
-    margin-bottom: 150px;
+   margin-bottom: 150px;
 }
 
 .bed__text{
@@ -163,4 +202,78 @@ p{
     left: 125px;
     color: #fff;
     font-size: 30px;
+}
+
+.contacts{
+    margin-bottom: 150px;   
+}
+
+.contacts__title{
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.contacts__title::before{
+    display: block;
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    bottom: 30px;
+    background-image: url(../resources/phone-logo.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.contacts__phone{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.contacts__phone:hover{
+    opacity: 0.5;
+    transition: all ease 0.4s;
+}
+
+.contacts__email{
+    font-size: 60px;
+}
+
+.contacts__email:hover{
+    transition: all ease 0.4s;
+    opacity: 0.5;
+}
+
+.footer{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #121212;
+    padding: 60px 0 30px;
+}
+
+.footer__list{
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    margin-bottom: 87px;
+}
+
+
+.footer__link{
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer__link:hover{
+    opacity: 0.5;
+    transition: ease all 0.3s;
+}
+
+.footer__copyright{
+    color: #F5F5F5;
+    margin: 0 auto;
+    width: 389px;
+    opacity: 0.5;
 }
