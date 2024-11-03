@@ -40,7 +40,7 @@ p{
 }
 
 
-.nav-section{
+.header{
     margin-bottom: 70px;
     padding-top: 33px;
 }
@@ -67,19 +67,26 @@ p{
     transition: ease-in 0.2s all;
 }
 
+.hero{
+    margin-bottom: 150px;
+}
+
 .hero__title{
+    width: 956px;
     margin-bottom: 30px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
 }
 
 .hero__box{
     position: relative;
-    width: 1150px;
+    width: 100%;
     height: 500px;
     background-image: url(../resources/about.png);
     color: white;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 150px;
+    
     /* padding: 379px 680px 40px 40px; */
 }
 
@@ -98,6 +105,10 @@ p{
     padding-bottom: 30px;
 }
 
+.history{
+    margin-bottom: 150px;
+}
+
 .history__text{
     width: 1048px;
     font-size: 45px;
@@ -112,7 +123,7 @@ p{
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    margin-bottom: 150px;
+    
 }
 
 .check-our-services:hover{
@@ -135,6 +146,7 @@ p{
 
 .items__text{
     margin: 15px 0 15px;
+    font-size: 25px;
 }
 
 .items__link{
@@ -159,18 +171,14 @@ p{
 
 .title__offers{
     color: white;
-    padding: 151px 0 34px 127px;
+    padding-top: 150px;
 }
 
 .offers{
-    width: 1400px;
-    margin: 0 auto;
     background-color: #121212;
 }
 
 .offers__item{
-    width: 1150px;
-    margin: 0 auto;
     margin-bottom: 60px;
 }
 
@@ -189,11 +197,20 @@ p{
 }
 
 .bed{
-    position: relative;
-    width: 1400px; 
-    margin: 0 auto;
-   margin-bottom: 150px;
+    margin-bottom: 150px;
 }
+
+.fullWidthImage{
+    position: relative;
+    background-image: url(../resources/bad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 150px;
+    width: 100%;
+    height: 717px;
+}
+
 
 .bed__text{
     width: 443px;
@@ -246,8 +263,6 @@ p{
 }
 
 .footer{
-    width: 1400px;
-    margin: 0 auto;
     background-color: #121212;
     padding: 60px 0 30px;
 }
@@ -277,3 +292,4 @@ p{
     width: 389px;
     opacity: 0.5;
 }
+
