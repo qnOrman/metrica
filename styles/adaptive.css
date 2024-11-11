@@ -50,14 +50,38 @@
         width: 100%;
     }
 
-    .offers__item img{
-        width: 100%;
-    }
 
-    .offers__item:last-child{
+    .offers{
         padding-bottom: 120px;
+        margin-bottom: 120px;
     }
 
+    .offers__list{
+        gap: 80px 10px;
+    }
+
+    .offers__item-desc{
+        font-size: 25px;
+    }
+
+    .offers__item-price{
+        font-size: 20px;
+        
+    }
+
+    .reviews{
+        margin-bottom: 120px;
+    }
+
+    .reviews__item-title{
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+
+    .reviews__item-text{
+        font-size: 20px;
+    }
+        
     .bed__text{
         left: 50px;
         bottom: 80px;
@@ -138,14 +162,54 @@
         font-size: 14px;
     }
 
+    .offers{
+        margin-bottom: 80px;
+    }
+
     .offers__item img{
         margin-bottom: 10px;
     }
 
-    .offers__item p{
+    .offers__list{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .offers__item{
+        width: 100%;
+    }
+
+    .offers__item-desc{
         font-size: 18px;
     }
 
+    .offers__item-price{
+        font-size: 14px;
+        left: 22px;
+        top: 24px;
+    }
+
+    .reviews{
+        margin-bottom: 80px;
+    }
+
+    .reviews__list{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .reviews__item{
+        width: 100%;
+    }
+
+    .reviews__item-title{
+        margin-bottom: 10px;
+    }
+
+    .reviews__item-text{
+        font-size: 16px;
+    }
 
     .bed{
         margin-bottom: 80px;
@@ -208,4 +272,11 @@
     .hero__box{
         background-image: url(../resources/mobile-about.jpg);
     }
+}
+
+@media(any-hover: hover) {
+  element:hover {
+    background-color: red;
+    color: white
+  }
 }
